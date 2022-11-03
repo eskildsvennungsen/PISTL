@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\LENOVO\Documents\dev\22H\ADA\VE3140-22H\default.gpr
+20221103102336 fb929f893a42d39d96c516caa99a55c1
+C:\Users\LENOVO\Documents\dev\22H\ADA\Ada_Drivers_Library\boards\MicroBit_v2\microbit_v2_full.gpr
+20220929105500 c47d940d7677b91cce12904335c252a3
+[BOUND OBJECT FILES]
+C:\Users\LENOVO\Documents\dev\22H\ADA\VE3140-22H\obj\calculation.o
+C:\Users\LENOVO\Documents\dev\22H\ADA\VE3140-22H\obj\controller.o
+C:\Users\LENOVO\Documents\dev\22H\ADA\VE3140-22H\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\LENOVO\Documents\dev\22H\ADA\VE3140-22H\obj\
+-LC:\Users\LENOVO\Documents\dev\22H\ADA\VE3140-22H\obj\
+-LC:\Users\LENOVO\Documents\dev\22H\ADA\Ada_Drivers_Library\boards\MicroBit_v2\obj\full_lib_Debug\
+-LC:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\adalib\
+-static
+-static-libgcc
+C:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\adalib\libgnarl.a
+C:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\adalib\libgnat.a
