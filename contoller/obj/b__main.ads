@@ -48,8 +48,8 @@ package ada_main is
    --  system.float_control%s
    --  system.float_control%b
    --  system.img_int%s
+   --  system.img_lli%s
    --  system.machine_code%s
-   --  machine_code%s
    --  system.parameters%s
    --  system.parameters%b
    --  system.powten_flt%s
@@ -269,6 +269,8 @@ package ada_main is
    --  nrf.tasks%b
    --  nrf.clock%s
    --  nrf.clock%b
+   --  nrf.radio%s
+   --  nrf.radio%b
    --  nrf.timers%s
    --  nrf.timers%b
    --  nrf.twi%s
@@ -286,6 +288,8 @@ package ada_main is
    --  microbit.i2c%b
    --  microbit.accelerometer%s
    --  microbit.accelerometer%b
+   --  microbit.radio%s
+   --  microbit.radio%b
    --  microbit.timewithrtc1%s
    --  microbit.timewithrtc1%b
    --  microbit.buttons%s

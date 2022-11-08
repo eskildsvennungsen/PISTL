@@ -5,7 +5,6 @@ procedure Main with Priority => 0 is
 
 begin
    loop
-      Display("A");
       null;
    end loop;
 end Main;

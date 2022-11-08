@@ -14,12 +14,12 @@ RV NO_FLOATING_POINT
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U calculation%b		calculation.adb		45052ba2 NE OO PK
+U calculation%b		calculation.adb		e7ae445a NE OO PK
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 
-U calculation%s		calculation.ads		a44d1b2b EE NE OO PK
+U calculation%s		calculation.ads		e1140f0c EE NE OO PK
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W lsm303agr%s		lsm303agr.adb		lsm303agr.ali
 
@@ -33,12 +33,12 @@ D a-stuten.ads		20220929103654 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20220929103654 9eaa38c6 ada.tags%s
 D a-textio.ads		20220929103654 ffc84532 ada.text_io%s
 D a-unccon.ads		20220929103654 0e9b276f ada.unchecked_conversion%s
-D calculation.ads	20221103112026 64728639 calculation%s
-D calculation.adb	20221103112654 debfe8a9 calculation%b
+D calculation.ads	20221108134642 e9d45265 calculation%s
+D calculation.adb	20221108134642 f1b2530d calculation%b
 D hal.ads		20220929105500 2b42c80e hal%s
 D hal-i2c.ads		20220929105500 0ed73138 hal.i2c%s
 D interfac.ads		20220929103654 edec285f interfaces%s
-D lsm303agr.ads		20220929105500 c03f9d12 lsm303agr%s
+D lsm303agr.ads		20221108131036 08c05d69 lsm303agr%s
 D system.ads		20220929103654 ad54c63c system%s
 D s-finmas.ads		20220929103654 1ab4dba8 system.finalization_masters%s
 D s-finroo.ads		20220929103654 4ff27390 system.finalization_root%s
@@ -55,7 +55,7 @@ D unchconv.ads		20220929103654 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z s b [normalizeaxisdata calculation 10 13 none]
 G c Z s b [normalize calculation 11 13 none]
-G c Z s s [nomralizedaxisdatasetIP calculation 6 9 none]
+G c Z s s [normalizedaxisdatasetIP calculation 6 9 none]
 X 1 ada.ads
 16K9*Ada 20e8 12|1r6 1r23
 X 9 a-textio.ads
@@ -63,12 +63,12 @@ X 9 a-textio.ads
 X 11 calculation.ads
 3K9*Calculation 13l5 13e16 12|3b14 28l5 28t16
 5F9*NormalizedAxisData<short_float> 7r17 11r59 12|5r58 9r20 14r21
-6R9*NomralizedAxisDataSet 8e14 10r71 12|19r71 20r17
+6R9*NormalizedAxisDataSet 8e14 10r71 12|19r71 20r17
 7f7*X{5F9} 12|22m15
 7f10*Y{5F9} 12|23m15
 7f13*Z{5F9} 12|24m15
 10V13*NormalizeAxisData{6R9} 10>32 12|19b13 26l8 26t25
-10r32 Data{16|50R9} 12|19b32 22r30 23r30 24r30
+10r32 Data{16|56R9} 12|19b32 22r30 23r30 24r30
 11V13*Normalize{5F9} 11>24 12|5b13 16t7 22s20 23s20 24s20
 11i24 data{16|48I9} 12|5b23 6r33
 X 12 calculation.adb
@@ -78,10 +78,10 @@ X 12 calculation.adb
 9f7 returnData{11|5F9} 14m7 15r14
 20r7 dataSet{11|6R9} 22m7 23m7 24m7 25r15
 X 16 lsm303agr.ads
-36K9*LSM303AGR 11|1w6 1r21 10r39 11r31 12|5r30 19r39 16|168e14
+36K9*LSM303AGR 11|1w6 1r21 10r39 11r31 12|5r30 19r39 16|184e14
 48I9*Axis_Data<short_integer> 11|11r41 12|5r40
-50R9*All_Axes_Data 11|10r49 12|19r49 16|52e14
-51i7*X{48I9} 12|22r35
-51i10*Y{48I9} 12|23r35
-51i13*Z{48I9} 12|24r35
+56R9*All_Axes_Data 11|10r49 12|19r49 16|58e14
+57i7*X{48I9} 12|22r35
+57i10*Y{48I9} 12|23r35
+57i13*Z{48I9} 12|24r35
 

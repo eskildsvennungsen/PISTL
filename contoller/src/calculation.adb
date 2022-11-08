@@ -16,8 +16,8 @@ package body Calculation is
    end;
    
    
-   function NormalizeAxisData (data : LSM303AGR.All_Axes_Data) return NomralizedAxisDataSet is
-      dataSet : NomralizedAxisDataSet;
+   function NormalizeAxisData (data : LSM303AGR.All_Axes_Data) return NormalizedAxisDataSet is
+      dataSet : NormalizedAxisDataSet;
    begin
       dataSet.X := Normalize(data.X);
       dataSet.Y := Normalize(data.Y);
