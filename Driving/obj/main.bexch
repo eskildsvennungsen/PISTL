@@ -1,0 +1,28 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr
+20221110100302 5e1774e457f0af52a73bf49b1c4b6285
+C:\Users\Marti\Documents\git-repos\Ada_Drivers_Library\boards\MicroBit_v2\microbit_v2_full.gpr
+20220929110354 b1ca3909daf82a96688dde2936d9b62f
+[BOUND OBJECT FILES]
+C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\brain.o
+C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\mymotordriver.o
+C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\taskact.o
+C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\tasksense.o
+C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\taskthink.o
+C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\mycontroller.o
+C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\
+-LC:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\
+-LC:\Users\Marti\Documents\git-repos\Ada_Drivers_Library\boards\MicroBit_v2\obj\full_lib_Debug\
+-LC:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\adalib\
+-static
+-static-libgcc
+C:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\adalib\libgnarl.a
+C:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\adalib\libgnat.a

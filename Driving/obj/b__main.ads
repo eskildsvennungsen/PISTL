@@ -27,8 +27,6 @@ package ada_main is
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
-   --  ada.characters%s
-   --  ada.characters.latin_1%s
    --  interfaces%s
    --  system%s
    --  ada.io_exceptions%s
@@ -37,23 +35,17 @@ package ada_main is
    --  interfaces.nrf52%s
    --  interfaces.nrf52.clock%s
    --  interfaces.nrf52.uart%s
-   --  system.address_operations%s
-   --  system.address_operations%b
    --  system.bb%s
    --  system.bb.board_parameters%s
    --  system.bb.cpu_specific%s
    --  system.bb.mcu_parameters%s
    --  system.bb.parameters%s
    --  system.exceptions%s
-   --  system.float_control%s
-   --  system.float_control%b
    --  system.img_int%s
    --  system.img_lli%s
    --  system.machine_code%s
-   --  machine_code%s
    --  system.parameters%s
    --  system.parameters%b
-   --  system.powten_flt%s
    --  system.storage_elements%s
    --  system.storage_elements%b
    --  system.secondary_stack%s
@@ -77,20 +69,14 @@ package ada_main is
    --  system.unsigned_types%s
    --  interfaces.nrf52.rtc%s
    --  system.img_uns%s
-   --  system.img_util%s
-   --  system.img_util%b
    --  system.wch_con%s
    --  system.wch_con%b
    --  system.wch_jis%s
    --  system.wch_jis%b
    --  system.wch_cnv%s
    --  system.wch_cnv%b
-   --  ada.text_io%s
-   --  ada.text_io%b
    --  system.address_image%s
    --  system.address_image%b
-   --  system.compare_array_unsigned_8%s
-   --  system.compare_array_unsigned_8%b
    --  system.traceback%s
    --  system.traceback%b
    --  ada.strings.utf_encoding%s
@@ -174,7 +160,6 @@ package ada_main is
    --  system.finalization_root%s
    --  system.finalization_root%b
    --  ada.finalization%s
-   --  system.img_flt%s
    --  system.storage_pools%s
    --  system.storage_pools%b
    --  system.finalization_masters%s
@@ -187,22 +172,12 @@ package ada_main is
    --  ada.real_time%b
    --  ada.real_time.delays%s
    --  ada.real_time.delays%b
-   --  ada.real_time.timing_events%s
-   --  ada.real_time.timing_events%b
    --  system.assertions%s
    --  system.assertions%b
-   --  system.bit_ops%s
-   --  system.bit_ops%b
-   --  ada.strings.maps%s
-   --  ada.strings.maps%b
-   --  ada.strings.search%s
-   --  ada.strings.search%b
-   --  ada.strings.fixed%s
-   --  ada.strings.fixed%b
-   --  ada.strings.unbounded%s
-   --  ada.strings.unbounded%b
    --  system.pool_global%s
    --  system.pool_global%b
+   --  system.relative_delays%s
+   --  system.relative_delays%b
    --  system.tasking.protected_objects%s
    --  system.tasking.protected_objects%b
    --  system.tasking.restricted%s
@@ -241,16 +216,10 @@ package ada_main is
    --  nrf_svd.twi%s
    --  nrf_svd.uart%s
    --  nrf_svd.wdt%s
-   --  generic_timers%s
-   --  generic_timers%b
    --  hal.gpio%s
    --  hal.i2c%s
    --  hal.spi%s
    --  hal.uart%s
-   --  lsm303agr%s
-   --  lsm303agr%b
-   --  calculation%s
-   --  calculation%b
    --  memory_barriers%s
    --  memory_barriers%b
    --  cortex_m.nvic%s
@@ -260,6 +229,8 @@ package ada_main is
    --  nrf.events%b
    --  nrf.gpio%s
    --  nrf.gpio%b
+   --  nrf.gpio.tasks_and_events%s
+   --  nrf.gpio.tasks_and_events%b
    --  nrf.interrupts%s
    --  nrf.interrupts%b
    --  nrf.rtc%s
@@ -268,8 +239,12 @@ package ada_main is
    --  nrf.spi_master%b
    --  nrf.tasks%s
    --  nrf.tasks%b
+   --  nrf.adc%s
+   --  nrf.adc%b
    --  nrf.clock%s
    --  nrf.clock%b
+   --  nrf.ppi%s
+   --  nrf.ppi%b
    --  nrf.radio%s
    --  nrf.radio%b
    --  nrf.timers%s
@@ -283,20 +258,21 @@ package ada_main is
    --  microbit%s
    --  microbit.console%s
    --  microbit.console%b
-   --  microbit.displayrt%s
-   --  microbit.displayrt%b
-   --  microbit.i2c%s
-   --  microbit.i2c%b
-   --  microbit.accelerometer%s
-   --  microbit.accelerometer%b
+   --  microbit.iosfortasking%s
+   --  microbit.iosfortasking%b
    --  microbit.radio%s
    --  microbit.radio%b
-   --  microbit.timewithrtc1%s
-   --  microbit.timewithrtc1%b
-   --  microbit.buttons%s
-   --  microbit.buttons%b
-   --  controller%s
-   --  controller%b
+   --  brain%s
+   --  brain%b
+   --  mymotordriver%s
+   --  mymotordriver%b
+   --  taskact%s
+   --  taskact%b
+   --  tasksense%s
+   --  tasksense%b
+   --  taskthink%s
+   --  taskthink%b
+   --  mycontroller%s
    --  main%b
    --  END ELABORATION ORDER
 

@@ -6,56 +6,52 @@ pragma Suppress (Overflow_Check);
 
 package body ada_main is
 
-   E128 : Short_Integer; pragma Import (Ada, E128, "ada__text_io_E");
    E061 : Short_Integer; pragma Import (Ada, E061, "ada__tags_E");
    E005 : Short_Integer; pragma Import (Ada, E005, "ada__strings__text_buffers_E");
    E059 : Short_Integer; pragma Import (Ada, E059, "system__bb__timing_events_E");
    E012 : Short_Integer; pragma Import (Ada, E012, "ada__exceptions_E");
    E098 : Short_Integer; pragma Import (Ada, E098, "system__soft_links_E");
    E096 : Short_Integer; pragma Import (Ada, E096, "system__exception_table_E");
-   E136 : Short_Integer; pragma Import (Ada, E136, "ada__streams_E");
-   E142 : Short_Integer; pragma Import (Ada, E142, "system__finalization_root_E");
-   E140 : Short_Integer; pragma Import (Ada, E140, "ada__finalization_E");
-   E144 : Short_Integer; pragma Import (Ada, E144, "system__storage_pools_E");
-   E139 : Short_Integer; pragma Import (Ada, E139, "system__finalization_masters_E");
-   E124 : Short_Integer; pragma Import (Ada, E124, "ada__real_time_E");
-   E254 : Short_Integer; pragma Import (Ada, E254, "ada__real_time__timing_events_E");
-   E260 : Short_Integer; pragma Import (Ada, E260, "ada__strings__maps_E");
-   E256 : Short_Integer; pragma Import (Ada, E256, "ada__strings__unbounded_E");
-   E146 : Short_Integer; pragma Import (Ada, E146, "system__pool_global_E");
-   E226 : Short_Integer; pragma Import (Ada, E226, "system__tasking__protected_objects_E");
-   E233 : Short_Integer; pragma Import (Ada, E233, "system__tasking__restricted__stages_E");
-   E272 : Short_Integer; pragma Import (Ada, E272, "generic_timers_E");
-   E167 : Short_Integer; pragma Import (Ada, E167, "hal__gpio_E");
-   E134 : Short_Integer; pragma Import (Ada, E134, "hal__i2c_E");
-   E181 : Short_Integer; pragma Import (Ada, E181, "hal__spi_E");
-   E191 : Short_Integer; pragma Import (Ada, E191, "hal__uart_E");
-   E132 : Short_Integer; pragma Import (Ada, E132, "lsm303agr_E");
-   E130 : Short_Integer; pragma Import (Ada, E130, "calculation_E");
-   E224 : Short_Integer; pragma Import (Ada, E224, "memory_barriers_E");
-   E222 : Short_Integer; pragma Import (Ada, E222, "cortex_m__nvic_E");
-   E217 : Short_Integer; pragma Import (Ada, E217, "nrf__events_E");
-   E161 : Short_Integer; pragma Import (Ada, E161, "nrf__gpio_E");
-   E219 : Short_Integer; pragma Import (Ada, E219, "nrf__interrupts_E");
-   E176 : Short_Integer; pragma Import (Ada, E176, "nrf__rtc_E");
-   E179 : Short_Integer; pragma Import (Ada, E179, "nrf__spi_master_E");
-   E204 : Short_Integer; pragma Import (Ada, E204, "nrf__tasks_E");
-   E202 : Short_Integer; pragma Import (Ada, E202, "nrf__clock_E");
-   E243 : Short_Integer; pragma Import (Ada, E243, "nrf__radio_E");
-   E183 : Short_Integer; pragma Import (Ada, E183, "nrf__timers_E");
-   E186 : Short_Integer; pragma Import (Ada, E186, "nrf__twi_E");
-   E189 : Short_Integer; pragma Import (Ada, E189, "nrf__uart_E");
-   E152 : Short_Integer; pragma Import (Ada, E152, "nrf__device_E");
-   E238 : Short_Integer; pragma Import (Ada, E238, "microbit__console_E");
-   E252 : Short_Integer; pragma Import (Ada, E252, "microbit__displayrt_E");
-   E195 : Short_Integer; pragma Import (Ada, E195, "microbit__i2c_E");
-   E193 : Short_Integer; pragma Import (Ada, E193, "microbit__accelerometer_E");
-   E240 : Short_Integer; pragma Import (Ada, E240, "microbit__radio_E");
-   E199 : Short_Integer; pragma Import (Ada, E199, "microbit__timewithrtc1_E");
-   E197 : Short_Integer; pragma Import (Ada, E197, "microbit__buttons_E");
-   E122 : Short_Integer; pragma Import (Ada, E122, "controller_E");
+   E148 : Short_Integer; pragma Import (Ada, E148, "ada__streams_E");
+   E155 : Short_Integer; pragma Import (Ada, E155, "system__finalization_root_E");
+   E153 : Short_Integer; pragma Import (Ada, E153, "ada__finalization_E");
+   E157 : Short_Integer; pragma Import (Ada, E157, "system__storage_pools_E");
+   E152 : Short_Integer; pragma Import (Ada, E152, "system__finalization_masters_E");
+   E125 : Short_Integer; pragma Import (Ada, E125, "ada__real_time_E");
+   E159 : Short_Integer; pragma Import (Ada, E159, "system__pool_global_E");
+   E220 : Short_Integer; pragma Import (Ada, E220, "system__tasking__protected_objects_E");
+   E227 : Short_Integer; pragma Import (Ada, E227, "system__tasking__restricted__stages_E");
+   E150 : Short_Integer; pragma Import (Ada, E150, "hal__gpio_E");
+   E182 : Short_Integer; pragma Import (Ada, E182, "hal__i2c_E");
+   E175 : Short_Integer; pragma Import (Ada, E175, "hal__spi_E");
+   E186 : Short_Integer; pragma Import (Ada, E186, "hal__uart_E");
+   E216 : Short_Integer; pragma Import (Ada, E216, "memory_barriers_E");
+   E214 : Short_Integer; pragma Import (Ada, E214, "cortex_m__nvic_E");
+   E207 : Short_Integer; pragma Import (Ada, E207, "nrf__events_E");
+   E141 : Short_Integer; pragma Import (Ada, E141, "nrf__gpio_E");
+   E209 : Short_Integer; pragma Import (Ada, E209, "nrf__gpio__tasks_and_events_E");
+   E211 : Short_Integer; pragma Import (Ada, E211, "nrf__interrupts_E");
+   E170 : Short_Integer; pragma Import (Ada, E170, "nrf__rtc_E");
+   E173 : Short_Integer; pragma Import (Ada, E173, "nrf__spi_master_E");
+   E194 : Short_Integer; pragma Import (Ada, E194, "nrf__tasks_E");
+   E192 : Short_Integer; pragma Import (Ada, E192, "nrf__adc_E");
+   E243 : Short_Integer; pragma Import (Ada, E243, "nrf__clock_E");
+   E218 : Short_Integer; pragma Import (Ada, E218, "nrf__ppi_E");
+   E241 : Short_Integer; pragma Import (Ada, E241, "nrf__radio_E");
+   E177 : Short_Integer; pragma Import (Ada, E177, "nrf__timers_E");
+   E180 : Short_Integer; pragma Import (Ada, E180, "nrf__twi_E");
+   E184 : Short_Integer; pragma Import (Ada, E184, "nrf__uart_E");
+   E131 : Short_Integer; pragma Import (Ada, E131, "nrf__device_E");
+   E188 : Short_Integer; pragma Import (Ada, E188, "microbit__console_E");
+   E190 : Short_Integer; pragma Import (Ada, E190, "microbit__iosfortasking_E");
+   E238 : Short_Integer; pragma Import (Ada, E238, "microbit__radio_E");
+   E236 : Short_Integer; pragma Import (Ada, E236, "brain_E");
+   E232 : Short_Integer; pragma Import (Ada, E232, "mymotordriver_E");
+   E123 : Short_Integer; pragma Import (Ada, E123, "taskact_E");
+   E234 : Short_Integer; pragma Import (Ada, E234, "tasksense_E");
+   E248 : Short_Integer; pragma Import (Ada, E248, "taskthink_E");
 
-   Sec_Default_Sized_Stacks : array (1 .. 3) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
+   Sec_Default_Sized_Stacks : array (1 .. 4) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
    Local_Priority_Specific_Dispatching : constant String := "";
    Local_Interrupt_States : constant String := "";
@@ -142,13 +138,11 @@ package body ada_main is
 
       ada_main'Elab_Body;
       Default_Secondary_Stack_Size := System.Parameters.Runtime_Default_Sec_Stack_Size;
-      Binder_Sec_Stacks_Count := 3;
+      Binder_Sec_Stacks_Count := 4;
       Default_Sized_SS_Pool := Sec_Default_Sized_Stacks'Address;
 
       Runtime_Initialize (1);
 
-      Ada.Text_Io'Elab_Body;
-      E128 := E128 + 1;
       Ada.Strings.Text_Buffers'Elab_Spec;
       E005 := E005 + 1;
       System.Bb.Timing_Events'Elab_Spec;
@@ -162,86 +156,81 @@ package body ada_main is
       E098 := E098 + 1;
       E012 := E012 + 1;
       Ada.Streams'Elab_Spec;
-      E136 := E136 + 1;
+      E148 := E148 + 1;
       System.Finalization_Root'Elab_Spec;
-      E142 := E142 + 1;
+      E155 := E155 + 1;
       Ada.Finalization'Elab_Spec;
-      E140 := E140 + 1;
+      E153 := E153 + 1;
       System.Storage_Pools'Elab_Spec;
-      E144 := E144 + 1;
+      E157 := E157 + 1;
       System.Finalization_Masters'Elab_Spec;
       System.Finalization_Masters'Elab_Body;
-      E139 := E139 + 1;
+      E152 := E152 + 1;
       Ada.Real_Time'Elab_Body;
-      E124 := E124 + 1;
-      Ada.Real_Time.Timing_Events'Elab_Spec;
-      E254 := E254 + 1;
-      Ada.Strings.Maps'Elab_Spec;
-      E260 := E260 + 1;
-      Ada.Strings.Unbounded'Elab_Spec;
-      E256 := E256 + 1;
+      E125 := E125 + 1;
       System.Pool_Global'Elab_Spec;
-      E146 := E146 + 1;
+      E159 := E159 + 1;
       System.Tasking.Protected_Objects'Elab_Body;
-      E226 := E226 + 1;
+      E220 := E220 + 1;
       System.Tasking.Restricted.Stages'Elab_Body;
-      E233 := E233 + 1;
-      E272 := E272 + 1;
+      E227 := E227 + 1;
       HAL.GPIO'ELAB_SPEC;
-      E167 := E167 + 1;
+      E150 := E150 + 1;
       HAL.I2C'ELAB_SPEC;
-      E134 := E134 + 1;
+      E182 := E182 + 1;
       HAL.SPI'ELAB_SPEC;
-      E181 := E181 + 1;
+      E175 := E175 + 1;
       HAL.UART'ELAB_SPEC;
-      E191 := E191 + 1;
-      LSM303AGR'ELAB_SPEC;
-      LSM303AGR'ELAB_BODY;
-      E132 := E132 + 1;
-      E130 := E130 + 1;
-      E224 := E224 + 1;
-      E222 := E222 + 1;
-      E217 := E217 + 1;
+      E186 := E186 + 1;
+      E216 := E216 + 1;
+      E214 := E214 + 1;
+      E207 := E207 + 1;
       Nrf.Gpio'Elab_Spec;
       Nrf.Gpio'Elab_Body;
-      E161 := E161 + 1;
-      E219 := E219 + 1;
-      E176 := E176 + 1;
+      E141 := E141 + 1;
+      E209 := E209 + 1;
+      E211 := E211 + 1;
+      E170 := E170 + 1;
       Nrf.Spi_Master'Elab_Spec;
       Nrf.Spi_Master'Elab_Body;
-      E179 := E179 + 1;
-      E204 := E204 + 1;
-      E202 := E202 + 1;
+      E173 := E173 + 1;
+      E194 := E194 + 1;
+      E192 := E192 + 1;
       E243 := E243 + 1;
+      E218 := E218 + 1;
+      E241 := E241 + 1;
       Nrf.Timers'Elab_Spec;
       Nrf.Timers'Elab_Body;
-      E183 := E183 + 1;
+      E177 := E177 + 1;
       Nrf.Twi'Elab_Spec;
       Nrf.Twi'Elab_Body;
-      E186 := E186 + 1;
+      E180 := E180 + 1;
       Nrf.Uart'Elab_Spec;
       Nrf.Uart'Elab_Body;
-      E189 := E189 + 1;
+      E184 := E184 + 1;
       Nrf.Device'Elab_Spec;
       Nrf.Device'Elab_Body;
-      E152 := E152 + 1;
+      E131 := E131 + 1;
       Microbit.Console'Elab_Body;
-      E238 := E238 + 1;
-      Microbit.Displayrt'Elab_Body;
-      E252 := E252 + 1;
-      E195 := E195 + 1;
-      Microbit.Accelerometer'Elab_Body;
-      E193 := E193 + 1;
+      E188 := E188 + 1;
+      Microbit.Iosfortasking'Elab_Spec;
+      Microbit.Iosfortasking'Elab_Body;
+      E190 := E190 + 1;
       Microbit.Radio'Elab_Spec;
-      E240 := E240 + 1;
-      Microbit.Timewithrtc1'Elab_Spec;
-      Microbit.Timewithrtc1'Elab_Body;
-      E199 := E199 + 1;
-      Microbit.Buttons'Elab_Body;
-      E197 := E197 + 1;
-      Controller'Elab_Spec;
-      Controller'Elab_Body;
-      E122 := E122 + 1;
+      E238 := E238 + 1;
+      Brain'Elab_Spec;
+      E236 := E236 + 1;
+      Mymotordriver'Elab_Spec;
+      E232 := E232 + 1;
+      Taskact'Elab_Spec;
+      Taskact'Elab_Body;
+      E123 := E123 + 1;
+      Tasksense'Elab_Spec;
+      Tasksense'Elab_Body;
+      E234 := E234 + 1;
+      Taskthink'Elab_Spec;
+      Taskthink'Elab_Body;
+      E248 := E248 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -267,11 +256,15 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\Marti\Documents\git-repos\PISTL\contoller\obj\calculation.o
-   --   C:\Users\Marti\Documents\git-repos\PISTL\contoller\obj\controller.o
-   --   C:\Users\Marti\Documents\git-repos\PISTL\contoller\obj\main.o
-   --   -LC:\Users\Marti\Documents\git-repos\PISTL\contoller\obj\
-   --   -LC:\Users\Marti\Documents\git-repos\PISTL\contoller\obj\
+   --   C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\brain.o
+   --   C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\mymotordriver.o
+   --   C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\taskact.o
+   --   C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\tasksense.o
+   --   C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\taskthink.o
+   --   C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\mycontroller.o
+   --   C:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\main.o
+   --   -LC:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\
+   --   -LC:\Users\Marti\Documents\git-repos\PISTL\Driving\obj\
    --   -LC:\Users\Marti\Documents\git-repos\Ada_Drivers_Library\boards\MicroBit_v2\obj\full_lib_Debug\
    --   -LC:\gnat\2021-arm-elf\arm-eabi\lib\gnat\ravenscar-full-nrf52833\adalib\
    --   -static
