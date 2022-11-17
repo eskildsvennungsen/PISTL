@@ -17,7 +17,7 @@ package body TaskSense is
       TxData.Group := 1;
       TxData.Protocol := 14;
 
-      Radio.Setup(RadioFrequency => 2409,
+      Radio.Setup(RadioFrequency => 2410,
                   Length => TxData.Length,
                   Version => TxData.Version,
                   Group => TxData.Group,
@@ -36,10 +36,9 @@ package body TaskSense is
    
             while Radio.DataReady loop
          Put("Raven Received D1: " & UInt8'Image(tempRXdata.Payload(1)));
-            Put_Line(" D2: " & UInt8'Image(tempRXdata.Payload(2)));   
             myBrain.SetMeasurementSensor1 (Radio.Receive); -- random value, hook up a sensor here!
          end loop;
-         delay until myClock + Milliseconds(200); --random period
+         delay until myClock + Milliseconds(120); --random period
       end loop;
    end sense;
 

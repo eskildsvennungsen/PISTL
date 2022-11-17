@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
-    <file_marker column=" 1" line=" 1" >
+    <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_file>
+    <file_marker column=" 99" line=" 4" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\main.adb</vfs_file>
     </file_marker>
@@ -10,7 +10,7 @@
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\brain.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 20" >
+    <file_marker column=" 11" line=" 19" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\brain.ads</vfs_file>
     </file_marker>
@@ -22,7 +22,7 @@
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mymotordriver.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 258" >
+    <file_marker column=" 44" line=" 213" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskact.adb</vfs_file>
     </file_marker>
@@ -30,7 +30,7 @@
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskact.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 47" >
+    <file_marker column=" 47" line=" 38" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\tasksense.adb</vfs_file>
     </file_marker>
@@ -38,273 +38,41 @@
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\tasksense.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 51" >
+    <file_marker column=" 1" line=" 35" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskthink.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskact.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskact.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskact.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\tasksense.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskthink.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\tasksense.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskthink.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 32" line=" 6" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskthink.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskact.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\brain.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\brain.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mymotordriver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mymotordriver.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskact.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 258" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskact.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\brain.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\brain.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\brain.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\brain.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\brain.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\mymotordriver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\mymotordriver.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\brain.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\brain.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\mymotordriver.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\mymotordriver.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\brain.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskact.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskact.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\tasksense.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\tasksense.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 8" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\tasksense.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 3" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller_empty.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller_empty.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller_empty.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller_empty.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 21" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 40" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\tasksense.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller_empty.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller_empty.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\brain.adb</vfs_file>
     </file_marker>
     <file_marker column=" 33" line=" 27" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\brain.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 13" line=" 40" >
+    <file_marker column=" 1" line=" 20" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\tasksense.adb</vfs_file>
+      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\brain.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 15" >
+    <file_marker column=" 16" line=" 11" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\Tasks\taskthink.adb</vfs_file>
+      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\mymotordriver.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 32" line=" 35" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\main.adb</vfs_file>
+      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\POs\mymotordriver.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 3" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 18" line=" 9" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 1" line=" 59" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller_empty.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker current="true" column=" 1" line=" 18" >
       <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
       <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller_empty.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller_empty.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller_empty.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Marti\Documents\git-repos\PISTL\Driving\driving.gpr</vfs_project>
-      <vfs_file>C:\Users\Marti\Documents\git-repos\PISTL\Driving\src\mycontroller.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

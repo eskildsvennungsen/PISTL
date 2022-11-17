@@ -26,11 +26,11 @@ package body TaskAct is
       Pins : MotorControllerPins;
    begin
       Pins.LeftFrontSpeedEnA := 0; -- set you MB pins here. Note that some pins overlap with other M:B functions! See the Microbit package to inspect which function lives on which pin.
-      Pins.LeftFrontPin1In1 := 6;
-      Pins.LeftFrontPin2In2 := 7;
+      Pins.LeftFrontPin1In1 := 2;
+      Pins.LeftFrontPin2In2 := 3;
       Pins.LeftBackSpeedEnB := 0;
-      Pins.LeftBackPin1In3 := 2;
-      Pins.LeftBackPin2In4 := 3;
+      Pins.LeftBackPin1In3 := 6;
+      Pins.LeftBackPin2In4 := 7;
         
       Pins.RightFrontSpeedEnA := 1;
       Pins.RightFrontPin1In1 := 12;
@@ -52,17 +52,17 @@ package body TaskAct is
    begin
       case Direction is 
          when Forward => 
-            Instruction.LeftFrontSpeed := 512; -- speed is dutycycle between 0 and 100% => so a value between 0 and 1023
+            Instruction.LeftFrontSpeed := 612; -- speed is dutycycle between 0 and 100% => so a value between 0 and 1023
             Instruction.LeftFrontPin1 := True;
             Instruction.LeftFrontPin2 := not Instruction.LeftFrontPin1; -- the second pin is always the opposite of the first!
-            Instruction.LeftBackSpeed := 512;  
+            Instruction.LeftBackSpeed := 612;  
             Instruction.LeftBackPin1 := True;
             Instruction.LeftBackPin2 := not Instruction.LeftBackPin1;
            
-            Instruction.RightFrontSpeed := 512; -- the speed of right front wheel is equal to the left front wheel. For traditional steering (eg turn left) the speed of left wheel is slower than right wheel 
+            Instruction.RightFrontSpeed := 612; -- the speed of right front wheel is equal to the left front wheel. For traditional steering (eg turn left) the speed of left wheel is slower than right wheel 
             Instruction.RightFrontPin1 := True;
             Instruction.RightFrontPin2 := not Instruction.RightFrontPin1; 
-            Instruction.RightBackSpeed := 512;
+            Instruction.RightBackSpeed := 612;
             Instruction.RightBackPin1 := True;
             Instruction.RightBackPin2 := not Instruction.RightBackPin1;
 

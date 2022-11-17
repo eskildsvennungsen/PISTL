@@ -19,25 +19,15 @@ package body TaskThink is
          elsif RXdata.Payload(1)=1  then
             MotorDriver.SetDirection (Forward);
             elsif RXdata.Payload(1)=2  then
-            MotorDriver.SetDirection (left);
-            elsif RXdata.Payload(1)=3  then
-            MotorDriver.SetDirection (right);
-            elsif RXdata.Payload(1)=4  then
             MotorDriver.SetDirection (backwards);
-            elsif RXdata.Payload(1)=5  then
-            MotorDriver.SetDirection (leftUp);
-            elsif RXdata.Payload(1)=6  then
-            MotorDriver.SetDirection (rightUp);
-            elsif RXdata.Payload(1)=7  then
-            MotorDriver.SetDirection (leftDown);
-            elsif RXdata.Payload(1)=8  then
-            MotorDriver.SetDirection (leftUp);
-            elsif RXdata.Payload(1)=9  then
-            MotorDriver.SetDirection (rightUp);
-            elsif RXdata.Payload(1)=10  then
-            MotorDriver.SetDirection (turnLeft);
-            elsif RXdata.Payload(1)=11  then
+            elsif RXdata.Payload(1)=3  then
+            MotorDriver.SetDirection (left);
+            elsif RXdata.Payload(1)=4  then
+            MotorDriver.SetDirection (right);
+            elsif RXdata.Payload(1)=5 then
             MotorDriver.SetDirection (turnRight);
+            elsif RXdata.Payload(1)=6  then
+            MotorDriver.SetDirection (turnLeft);
          else
             MotorDriver.SetDirection (Stop); 
          end if;

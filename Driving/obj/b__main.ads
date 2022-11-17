@@ -202,6 +202,7 @@ package ada_main is
    --  nrf_svd.ficr%s
    --  nrf_svd.gpio%s
    --  nrf_svd.gpiote%s
+   --  nrf_svd.nvmc%s
    --  nrf_svd.power%s
    --  nrf_svd.ppi%s
    --  nrf_svd.pwm%s
@@ -215,6 +216,7 @@ package ada_main is
    --  nrf_svd.timer%s
    --  nrf_svd.twi%s
    --  nrf_svd.uart%s
+   --  nrf_svd.uicr%s
    --  nrf_svd.wdt%s
    --  hal.gpio%s
    --  hal.i2c%s
