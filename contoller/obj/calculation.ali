@@ -19,39 +19,39 @@ W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 
-U calculation%s		calculation.ads		29ebcf77 EE NE OO PK
+U calculation%s		calculation.ads		e1140f0c EE NE OO PK
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W lsm303agr%s		lsm303agr.adb		lsm303agr.ali
 
-D ada.ads		20221004101404 76789da1 ada%s
-D a-except.ads		20221004101410 946f3014 ada.exceptions%s
-D a-finali.ads		20221004101410 bf4f806b ada.finalization%s
-D a-stream.ads		20221004101408 119b8fb3 ada.streams%s
-D a-string.ads		20221004101410 90ac6797 ada.strings%s
-D a-sttebu.ads		20221004101412 18209c64 ada.strings.text_buffers%s
-D a-stuten.ads		20221004101412 808c40ad ada.strings.utf_encoding%s
-D a-tags.ads		20221004101412 9eaa38c6 ada.tags%s
-D a-textio.ads		20221004101404 ffc84532 ada.text_io%s
-D a-unccon.ads		20221004101404 0e9b276f ada.unchecked_conversion%s
-D calculation.ads	20221108144032 e9d45265 calculation%s
-D calculation.adb	20221108144032 f1b2530d calculation%b
-D hal.ads		20220929110354 2b42c80e hal%s
-D hal-i2c.ads		20220929110354 0ed73138 hal.i2c%s
-D interfac.ads		20221004101404 edec285f interfaces%s
-D lsm303agr.ads		20220929110354 c03f9d12 lsm303agr%s
-D system.ads		20221004101420 ad54c63c system%s
-D s-finmas.ads		20221004101416 1ab4dba8 system.finalization_masters%s
-D s-finroo.ads		20221004101416 4ff27390 system.finalization_root%s
-D s-parame.ads		20221004101420 8e90778f system.parameters%s
-D s-pooglo.ads		20221004101416 ede33ef8 system.pool_global%s
-D s-putima.ads		20221004101416 4e095881 system.put_images%s
-D s-stalib.ads		20221004101416 472fbca8 system.standard_library%s
-D s-stoele.ads		20221004101404 2dc34a04 system.storage_elements%s
-D s-stoele.adb		20221004101404 ed88f8fb system.storage_elements%b
-D s-stopoo.ads		20221004101416 e9fa2dd8 system.storage_pools%s
-D s-traent.ads		20221004101416 26a8d361 system.traceback_entries%s
-D s-unstyp.ads		20221004101404 2b077493 system.unsigned_types%s
-D unchconv.ads		20221004101404 ca2f9e18 unchecked_conversion%s
+D ada.ads		20220929103654 76789da1 ada%s
+D a-except.ads		20220929103654 946f3014 ada.exceptions%s
+D a-finali.ads		20220929103654 bf4f806b ada.finalization%s
+D a-stream.ads		20220929103654 119b8fb3 ada.streams%s
+D a-string.ads		20220929103654 90ac6797 ada.strings%s
+D a-sttebu.ads		20220929103654 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20220929103654 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20220929103654 9eaa38c6 ada.tags%s
+D a-textio.ads		20220929103654 ffc84532 ada.text_io%s
+D a-unccon.ads		20220929103654 0e9b276f ada.unchecked_conversion%s
+D calculation.ads	20221108144136 e9d45265 calculation%s
+D calculation.adb	20221108144136 f1b2530d calculation%b
+D hal.ads		20220929105500 2b42c80e hal%s
+D hal-i2c.ads		20220929105500 0ed73138 hal.i2c%s
+D interfac.ads		20220929103654 edec285f interfaces%s
+D lsm303agr.ads		20221108131036 08c05d69 lsm303agr%s
+D system.ads		20220929103654 ad54c63c system%s
+D s-finmas.ads		20220929103654 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20220929103654 4ff27390 system.finalization_root%s
+D s-parame.ads		20220929103654 8e90778f system.parameters%s
+D s-pooglo.ads		20220929103654 ede33ef8 system.pool_global%s
+D s-putima.ads		20220929103654 4e095881 system.put_images%s
+D s-stalib.ads		20220929103654 472fbca8 system.standard_library%s
+D s-stoele.ads		20220929103654 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20220929103654 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20220929103654 e9fa2dd8 system.storage_pools%s
+D s-traent.ads		20220929103654 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20220929103654 2b077493 system.unsigned_types%s
+D unchconv.ads		20220929103654 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z s b [normalizeaxisdata calculation 10 13 none]
 G c Z s b [normalize calculation 11 13 none]
@@ -68,7 +68,7 @@ X 11 calculation.ads
 7f10*Y{5F9} 12|23m15
 7f13*Z{5F9} 12|24m15
 10V13*NormalizeAxisData{6R9} 10>32 12|19b13 26l8 26t25
-10r32 Data{16|50R9} 12|19b32 22r30 23r30 24r30
+10r32 Data{16|56R9} 12|19b32 22r30 23r30 24r30
 11V13*Normalize{5F9} 11>24 12|5b13 16t7 22s20 23s20 24s20
 11i24 data{16|48I9} 12|5b23 6r33
 X 12 calculation.adb
@@ -78,10 +78,10 @@ X 12 calculation.adb
 9f7 returnData{11|5F9} 14m7 15r14
 20r7 dataSet{11|6R9} 22m7 23m7 24m7 25r15
 X 16 lsm303agr.ads
-36K9*LSM303AGR 11|1w6 1r21 10r39 11r31 12|5r30 19r39 16|168e14
+36K9*LSM303AGR 11|1w6 1r21 10r39 11r31 12|5r30 19r39 16|184e14
 48I9*Axis_Data<short_integer> 11|11r41 12|5r40
-50R9*All_Axes_Data 11|10r49 12|19r49 16|52e14
-51i7*X{48I9} 12|22r35
-51i10*Y{48I9} 12|23r35
-51i13*Z{48I9} 12|24r35
+56R9*All_Axes_Data 11|10r49 12|19r49 16|58e14
+57i7*X{48I9} 12|22r35
+57i10*Y{48I9} 12|23r35
+57i13*Z{48I9} 12|24r35
 

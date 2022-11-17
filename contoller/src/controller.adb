@@ -20,23 +20,14 @@ package body Controller is
    task body Accelerometer is
       data : All_Axes_Data;
       time_now : Ada.Real_Time.Time;
-      button : MicroBit.Buttons.Button_Id := Button_A;
       normalizedData : NormalizedAxisDataSet;
    begin
       loop
-
          time_now := Ada.Real_Time.Clock;
-         if MicroBit.Buttons.State(Button_A) = Pressed then
-            data := MicroBit.Accelerometer.AccelData;
-            normalizedData := NormalizeAxisData(data);
-            Ada.Text_IO.Put_Line (
-                "X:"  & normalizedData.X'Img & "|" &
-                "Y:"  & normalizedData.Y'Img & "|" &
-                "Z:"  & normalizedData.Z'Img
-                    );
-
-      end if;
-      delay until time_now + Ada.Real_Time.Milliseconds(100);
+         data := MicroBit.Accelerometer.AccelData;
+         normalizedData := NormalizeAxisData(data);
+         DirectionHandler.WriteDirection(normalizedData);
+         delay until time_now + Ada.Real_Time.Milliseconds(100);
       end loop;
    end Accelerometer;
 
@@ -47,9 +38,25 @@ package body Controller is
          return data;
       end ReadData;
 
-      procedure WriteDirection (n : NormalizedAxisDataSet) is
+      procedure WriteDirection (normalizedData : NormalizedAxisDataSet) is
       begin
-         data := NORTH;
+         if MicroBit.Buttons.State(Button_A) = Pressed then
+            data := ROTATECOUNTERCLOCKWISE;
+         elsif MicroBit.Buttons.State(Button_B) = Pressed then
+            data := ROTATECLOCKWISE;
+         elsif (normalizedData.X > 0.43 and normalizedData.X < 0.57) and (normalizedData.Y > 0.43 and normalizedData.Y < 0.57) then
+            data := STANDBY;
+         elsif (normalizedData.X > 0.45 and normalizedData.X < 0.55) and (normalizedData.Y > 0.6) then
+            data:= NORTH;
+         elsif (normalizedData.X > 0.45 and normalizedData.X < 0.55) and (normalizedData.Y < 0.45) then
+            data := SOUTH;
+         elsif (normalizedData.X > 0.55) and (normalizedData.Y > 0.45 and normalizedData.Y < 0.55) then
+            data := WEST;
+         elsif (normalizedData.X < 0.45) and (normalizedData.Y > 0.45 and normalizedData.Y < 0.55) then
+            data := EAST;
+
+         end if;
+
       end WriteDirection;
 
    end DirectionHandler;
@@ -64,7 +71,7 @@ package body Controller is
       dataToSend.Group := 1;
       dataToSend.Protocol := 14;
 
-      Radio.Setup(RadioFrequency => 2409,
+      Radio.Setup(RadioFrequency => 2410,
                   Length => dataToSend.Length,
                   Version => dataToSend.Version,
                   Group => dataToSend.Group,
@@ -73,7 +80,6 @@ package body Controller is
          direction := UInt8(DrivingDirection'Pos(DirectionHandler.ReadData));
          time_now := Ada.Real_Time.Clock;
          dataToSend.Payload(1) := direction;
-         --Ada.Text_IO.Put_Line("Direction: " & Integer'Image();
          Ada.Text_IO.Put_Line("Payload: " & UInt8'Image(dataToSend.Payload(1)));
          Radio.Transmit(dataToSend);
          delay until time_now + Ada.Real_Time.Milliseconds(100);

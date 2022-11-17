@@ -9,18 +9,14 @@ package Controller is
                              SOUTH,
                              WEST,
                              EAST,
-                             NORTHWEST,
-                             NORTHEAST,
-                             SOUTHWEST,
-                             SOUTHEAST,
                              ROTATECLOCKWISE,
                              ROTATECOUNTERCLOCKWISE
                             );
    protected DirectionHandler is
       function ReadData return DrivingDirection;
-      procedure WriteDirection (n : NormalizedAxisDataSet);
+      procedure WriteDirection (normalizedData : NormalizedAxisDataSet);
       private
-      data : DrivingDirection := NORTHWEST;
+      data : DrivingDirection := STANDBY;
    end DirectionHandler;
    task SendData with Priority => 3;
    task Accelerometer with Priority => 2;
