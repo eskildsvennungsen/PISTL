@@ -32,7 +32,7 @@ D a-stuten.ads		20220929103654 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20220929103654 9eaa38c6 ada.tags%s
 D a-unccon.ads		20220929103654 0e9b276f ada.unchecked_conversion%s
 D calculation.ads	20221108144136 e9d45265 calculation%s
-D controller.ads	20221117104334 b00a9cbf controller%s
+D controller.ads	20221117110118 b00a9cbf controller%s
 D hal.ads		20220929105500 2b42c80e hal%s
 D hal-gpio.ads		20220929105500 7f0c2ffe hal.gpio%s
 D hal-i2c.ads		20220929105500 0ed73138 hal.i2c%s

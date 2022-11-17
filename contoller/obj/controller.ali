@@ -76,7 +76,7 @@ D a-taside.ads		20220929103654 00e3a3f6 ada.task_identification%s
 D a-textio.ads		20220929103654 ffc84532 ada.text_io%s
 D a-unccon.ads		20220929103654 0e9b276f ada.unchecked_conversion%s
 D calculation.ads	20221108144136 e9d45265 calculation%s
-D controller.ads	20221117104334 b00a9cbf controller%s
+D controller.ads	20221117110118 b00a9cbf controller%s
 D controller.adb	20221117105302 6498baf0 controller%b
 D hal.ads		20220929105500 2b42c80e hal%s
 D hal-gpio.ads		20220929105500 7f0c2ffe hal.gpio%s

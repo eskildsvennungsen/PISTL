@@ -4,13 +4,13 @@ with Calculation; use Calculation;
 package Controller is
 
    type DrivingDirection is (
-                             STANDBY,
-                             NORTH,
-                             SOUTH,
-                             WEST,
-                             EAST,
-                             ROTATECLOCKWISE,
-                             ROTATECOUNTERCLOCKWISE
+                             STANDBY, --0
+                             NORTH, --1
+                             SOUTH, --2
+                             WEST, --3
+                             EAST, --4
+                             ROTATECLOCKWISE, --5
+                             ROTATECOUNTERCLOCKWISE --6
                             );
    protected DirectionHandler is
       function ReadData return DrivingDirection;
